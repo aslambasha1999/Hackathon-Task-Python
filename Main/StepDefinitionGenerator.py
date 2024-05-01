@@ -10,7 +10,7 @@ from Utilities.format_Step_Funtion_name import format_step_function_name
 from Utilities.New_Implements_Selenium_Methods import *
 import logging
 
-# Add the current directory to the Python path
+# Add the current directory to the Python path java
 sys.path.append(os.getcwd())
 
 # Configure Logs
