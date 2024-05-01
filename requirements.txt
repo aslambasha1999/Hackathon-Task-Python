@@ -1,0 +1,17 @@
+
+# requirements.txt
+ 
+# Python version
+python=3.11.5
+
+# Selenium for browser automation
+selenium=4.14.0
+ 
+# Behave for running BDD tests
+behave=1.2.6
+ 
+# pytest for testing
+pytest=7.4.2
+
+#webdriver manager for managing chrome driver
+webdriver-manager=4.0.1
