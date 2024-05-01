@@ -59,7 +59,7 @@ selenium_keyword_mapping = {
     'get text': 'element.text',
     'get attribute': 'element.get_attribute("attribute")',
     'get title': 'context.driver.title',
-    'get url': 'context.driver.current_url',
+    'get  ': 'context.driver.current_url',
     'get page source': 'context.driver.page_source',
     'get window handle': 'context.driver.window_handles',
     'get window title': 'context.driver.title',

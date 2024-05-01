@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Execution Report</title>
+<script src='https://cdn.jsdelivr.net/npm/chart.js'></script>
+<style>
+body { font-family: Arial, sans-serif; margin: 20px; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #dddddd; text-align: left; padding: 8px; }
+th { background-color: #f2f2f2; }
+.feature-link { text-decoration: none; }
+.feature-pass { color: green; }
+.feature-fail { color: red; }
+.expand-icon, .collapse-icon { cursor: pointer; }
+#myChart { max-width: 600px; margin-top: 20px; }
+</style>
+<script>
+function toggleScenarioTable(index) {
+    var table = document.getElementById('scenarioTable' + index);
+    var icon = document.getElementById('toggleIcon' + index);
+    if (table.style.display === 'none') {
+        table.style.display = 'table';
+        icon.classList.remove('fa-chevron-down');
+        icon.classList.add('fa-chevron-up');
+    } else {
+        table.style.display = 'none';
+        icon.classList.remove('fa-chevron-up');
+        icon.classList.add('fa-chevron-down');
+    }
+}
+</script>
+</head>
+<body>
+<h1>Execution Report</h1>
+<p>Date: 2024-05-01 15:16:48</p>
+<table>
+    <tr>
+        <th>Feature File</th>
+        <th>Status</th>
+        <th>Time Taken (ms)</th>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(0)">AdvancedWebDriverActions.feature</a><i id='toggleIcon0' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-fail'>Fail</td>
+        <td>153.575</td>
+    </tr>
+<tr id="scenarioTable0" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Set the position of the browser window</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>0.000</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Perform drag and drop operation</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>16.774</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Perform double click action on an element</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>0.000</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Perform right click action on an element</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>32.541</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Perform click and hold action on an element</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>0.530</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Release a held click on an element</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>15.520</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Navigate back and forward in browser history</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>0.000</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Upload a file using file input element</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>32.761</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Zoom in and zoom out on the web page</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>0.000</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Set a cookie for the web page</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>16.510</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Delete a cookie from the web page</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>16.083</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Hover over an element on the web page</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>3.507</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Highlight an element on the web page</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>19.349</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Hide and show an element on the web page</td>
+                    <td class='feature-fail'>Fail</td>
+                    <td>0.000</td>
+                    <td>Failing Intentioanlly </td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(1)">Amazon.feature</a><i id='toggleIcon1' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-pass'>Pass</td>
+        <td>16.947</td>
+    </tr>
+<tr id="scenarioTable1" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Login into the application with valid credentials</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>7.075</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Searching different products after login</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>9.872</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(2)">BankingDomain.feature</a><i id='toggleIcon2' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-pass'>Pass</td>
+        <td>64.631</td>
+    </tr>
+<tr id="scenarioTable2" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Customer withdraws money from ATM</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>3.579</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Customer checks account balance</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>3.171</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Customer transfers money to another account</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>15.733</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Customer requests a bank statement</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>16.354</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Customer deposits money at the bank</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>0.000</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Customer applies for a bank loan</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>25.794</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(3)">EmptyFeaturefile.feature</a><i id='toggleIcon3' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-fail'>Fail</td>
+        <td>0.000</td>
+    </tr>
+<tr id="scenarioTable3" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td colspan="4">No Scenarios Found</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(4)">FeatureFileWithOnlyFeatureKeyword.feature</a><i id='toggleIcon4' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-fail'>Fail</td>
+        <td>0.000</td>
+    </tr>
+<tr id="scenarioTable4" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td colspan="4">No Scenarios Found</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(5)">FeaturefileWithOnlyScenarioButNoSteps.feature</a><i id='toggleIcon5' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-fail'>Fail</td>
+        <td>0.000</td>
+    </tr>
+<tr id="scenarioTable5" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Scenario with No Steps</td>
+                    <td class='feature-fail'>Fail</td>
+                    <td>0.000</td>
+                    <td>No Steps found in Scenario </td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(6)">FeaturewithCombinationofExampletableAndDatatable.feature</a><i id='toggleIcon6' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-fail'>Fail</td>
+        <td>0.000</td>
+    </tr>
+<tr id="scenarioTable6" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Register with different details</td>
+                    <td class='feature-fail'>Fail</td>
+                    <td>0.000</td>
+                    <td>Error: data_table_implementation() takes 1 positional argument but 2 were given while processing the step</td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(7)">FeaturewithDuplicatestepsbetweenScenarios.feature</a><i id='toggleIcon7' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-pass'>Pass</td>
+        <td>10.107</td>
+    </tr>
+<tr id="scenarioTable7" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Add item to cart</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>3.024</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Remove item from cart</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>7.083</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(8)">FeaturewithmultipleScenarios.feature</a><i id='toggleIcon8' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-pass'>Pass</td>
+        <td>18.394</td>
+    </tr>
+<tr id="scenarioTable8" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Search with valid keyword</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>0.000</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Search with invalid keyword</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>18.394</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(9)">FeatureWithOneScenario.feature</a><i id='toggleIcon9' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-pass'>Pass</td>
+        <td>3.824</td>
+    </tr>
+<tr id="scenarioTable9" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Successful login</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>3.824</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(10)">FeaturewithScenarioandScenarioOutline.feature</a><i id='toggleIcon10' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-pass'>Pass</td>
+        <td>15.616</td>
+    </tr>
+<tr id="scenarioTable10" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Add item to cart</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>3.661</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Remove item from cart</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>11.955</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(11)">FeaturewithScenarioOutline.feature</a><i id='toggleIcon11' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-pass'>Pass</td>
+        <td>11.911</td>
+    </tr>
+<tr id="scenarioTable11" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Register with different email domains</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>11.911</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(12)">FrameandWindowManagement.feature</a><i id='toggleIcon12' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-pass'>Pass</td>
+        <td>24.333</td>
+    </tr>
+<tr id="scenarioTable12" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Switch to a frame on the web page</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>4.446</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Switch to a new browser window</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>10.964</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Switch back to default content from a frame</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>8.923</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(13)">Git.feature</a><i id='toggleIcon13' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-pass'>Pass</td>
+        <td>3.901</td>
+    </tr>
+<tr id="scenarioTable13" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Github handling</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>3.901</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(14)">GreenTechnology.feature</a><i id='toggleIcon14' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-pass'>Pass</td>
+        <td>34.736</td>
+    </tr>
+<tr id="scenarioTable14" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>User logs into the sustainable living app</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>3.673</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>User tracks and reduces carbon footprint</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>0.000</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>User explores eco-friendly product options</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>15.108</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>User logs out of the sustainable living app</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>15.955</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(15)">HealthTech.feature</a><i id='toggleIcon15' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-pass'>Pass</td>
+        <td>31.672</td>
+    </tr>
+<tr id="scenarioTable15" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>User logs into the health tracking app</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>0.000</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>User records daily activity and vitals</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>19.783</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>User sets and achieves health goals</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>10.885</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>User logs out of the health tracking app</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>1.004</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(16)">IntegerParam.feature</a><i id='toggleIcon16' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-pass'>Pass</td>
+        <td>3.848</td>
+    </tr>
+<tr id="scenarioTable16" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Withdraw cash from ATM</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>3.848</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(17)">login_screen.feature</a><i id='toggleIcon17' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-pass'>Pass</td>
+        <td>5.216</td>
+    </tr>
+<tr id="scenarioTable17" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>User Login credentials</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>5.216</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(18)">OnlineLearning.feature</a><i id='toggleIcon18' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-pass'>Pass</td>
+        <td>33.501</td>
+    </tr>
+<tr id="scenarioTable18" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Student logs into the online learning platform</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>0.000</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Student joins a discussion forum for a course</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>16.999</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Student completes an assessment</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>15.498</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Student logs out of the online learning platform</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>1.004</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(19)">ParamHandling.feature</a><i id='toggleIcon19' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-fail'>Fail</td>
+        <td>16.731</td>
+    </tr>
+<tr id="scenarioTable19" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Withdraw cash from ATM</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>16.731</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Search for different terms</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>0.000</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Add items to the shopping cart</td>
+                    <td class='feature-fail'>Fail</td>
+                    <td>0.000</td>
+                    <td>Error: data_table_implementation() takes 1 positional argument but 2 were given while processing the step</td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(20)">RealtimeHeroKuAPP.feature</a><i id='toggleIcon20' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-pass'>Pass</td>
+        <td>2.601</td>
+    </tr>
+<tr id="scenarioTable20" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Verify various actions on the-internet.herokuapp.com</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>2.601</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(21)">Registration.feature</a><i id='toggleIcon21' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-pass'>Pass</td>
+        <td>15.352</td>
+    </tr>
+<tr id="scenarioTable21" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Register with different details</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>15.352</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(22)">RemoteWork.feature</a><i id='toggleIcon22' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-pass'>Pass</td>
+        <td>40.676</td>
+    </tr>
+<tr id="scenarioTable22" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Employee logs into the remote work platform</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>0.000</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Employee schedules a virtual team meeting</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>22.213</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Employee updates project status in the project management tool</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>7.466</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Employee logs out of the remote work platform</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>10.997</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(23)">ScenarioswithKeywordsHavingSpaces.feature</a><i id='toggleIcon23' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-pass'>Pass</td>
+        <td>4.920</td>
+    </tr>
+<tr id="scenarioTable23" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Validate Page Elements</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>4.920</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(24)">ScenariowithBackground.feature</a><i id='toggleIcon24' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-pass'>Pass</td>
+        <td>2.999</td>
+    </tr>
+<tr id="scenarioTable24" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Successful login</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>2.999</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(25)">ScenariowithDatatable.feature</a><i id='toggleIcon25' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-fail'>Fail</td>
+        <td>0.000</td>
+    </tr>
+<tr id="scenarioTable25" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Update profile information</td>
+                    <td class='feature-fail'>Fail</td>
+                    <td>0.000</td>
+                    <td>Error: data_table_implementation() takes 1 positional argument but 2 were given while processing the step</td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(26)">ScenariowithDuplicatestepswithinScenario.feature</a><i id='toggleIcon26' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-pass'>Pass</td>
+        <td>5.473</td>
+    </tr>
+<tr id="scenarioTable26" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Login with invalid credentials</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>5.473</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(27)">ScenariowithIntegerparams.feature</a><i id='toggleIcon27' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-pass'>Pass</td>
+        <td>4.517</td>
+    </tr>
+<tr id="scenarioTable27" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Add item to cart with price</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>4.517</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(28)">ScenariowithMultipleSeleniumKeywords.feature</a><i id='toggleIcon28' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-pass'>Pass</td>
+        <td>5.210</td>
+    </tr>
+<tr id="scenarioTable28" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Logging In</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>5.210</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(29)">ScenariowithStringParams.feature</a><i id='toggleIcon29' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-pass'>Pass</td>
+        <td>5.011</td>
+    </tr>
+<tr id="scenarioTable29" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Search for items with special characters</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>5.011</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(30)">searchProduct.feature</a><i id='toggleIcon30' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-pass'>Pass</td>
+        <td>3.915</td>
+    </tr>
+<tr id="scenarioTable30" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Validate product is available in Home and deals page</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>3.915</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(31)">SocialMediaUse.feature</a><i id='toggleIcon31' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-pass'>Pass</td>
+        <td>40.210</td>
+    </tr>
+<tr id="scenarioTable31" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>User logs into the social media platform</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>6.092</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>User creates a text post</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>13.801</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>User uploads and shares a photo</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>9.788</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>User hides a post from their timeline</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>10.529</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(32)">WebDriverActionsandAssertions.feature</a><i id='toggleIcon32' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-pass'>Pass</td>
+        <td>113.252</td>
+    </tr>
+<tr id="scenarioTable32" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Resize the browser window</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>5.429</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Close the browser window</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>12.065</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Quit the WebDriver</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>14.230</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Handle a browser alert</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>16.036</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Execute JavaScript code on the web page</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>4.044</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Wait for the presence of a specific element</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>26.330</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Pause execution for a specified duration</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>12.020</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Assert and verify values on the web page</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>11.601</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Assert and verify values on the web page</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>9.510</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Retrieve text and attribute values from an element</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>1.987</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(33)">WebElementInteraction.feature</a><i id='toggleIcon33' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-pass'>Pass</td>
+        <td>66.576</td>
+    </tr>
+<tr id="scenarioTable33" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Check a checkbox on the web page</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>0.000</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Select an option from a dropdown menu</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>24.342</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Scroll vertically on the web page</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>12.828</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Scroll to a specific element on the web page</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>10.093</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Move to and hover over a specific element</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>9.181</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Clear and reset an input field</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>10.132</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Refresh, navigate back, and forward on the web page</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>0.000</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="javascript:void(0)" class='feature-link' onclick="toggleScenarioTable(34)">WebPageNavigationandInteraction.feature</a><i id='toggleIcon34' class='expand-icon fas fa-chevron-down'></i></td>
+        <td class='feature-pass'>Pass</td>
+        <td>90.780</td>
+    </tr>
+<tr id="scenarioTable34" style="display:none">
+        <td colspan="3">
+            <table align="center">
+                <tr>
+                    <th>Scenario</th>
+                    <th>Status</th>
+                    <th>Time Taken (ms)</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <td>Successful Login</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>8.393</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Login to a web application</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>16.669</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Search for a product and add to the cart</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>16.707</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Fill out a registration form</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>14.074</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Verify navigation menu</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>7.001</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Download a file</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>12.289</td>
+                    <td></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>As someone who wants to sign up</td>
+                    <td class='feature-pass'>Pass</td>
+                    <td>15.647</td>
+                    <td></td>
+                </tr>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<canvas id='myChart'></canvas>
+<script>
+var ctx = document.getElementById('myChart').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'pie',
+    data: {
+        labels: ['Pass', 'Fail'],
+        datasets: [{
+            data: [28, 7],
+            backgroundColor: [
+                'rgba(75, 192, 192, 0.5)',
+                'rgba(255, 99, 132, 0.5)',
+            ],
+            borderColor: [
+                'rgba(75, 192, 192, 1)',
+                'rgba(255, 99, 132, 1)',
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        responsive: false,
+        maintainAspectRatio: false,
+    }
+});
+</script>
+<p style='font-weight: bold;'>Total Execution Time: <span style='color: green;'>850.435 milliseconds</span></p>
+</body>
+</html>
